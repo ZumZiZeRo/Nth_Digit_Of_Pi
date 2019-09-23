@@ -1,8 +1,8 @@
-#chudnovsky algorith Worked!! 
+#chudnovsky algorithm Worked!! 
 
 from decimal import Decimal as Dec, getcontext as gc
 
-def nthOfPI(iteration=70, precision=1008, display=1007): # parameter defaults chosen to gain 1000+ digits within a few seconds
+def nthOfPI(iteration=70, precision=110, display=100): # parameter defaults chosen to gain 100 digits within a short time
     gc().prec = precision
     K, M, L, X, S = 6, 1, 13591409, 1, 13591409 #the values defined here are part of constants of Chudnovsky Algorithm
 
